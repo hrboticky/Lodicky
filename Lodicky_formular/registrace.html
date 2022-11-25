@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrace</title>
+</head>
+
+<body>
+    <form action="POST">
+        <label for="nickname">Vaše přezdívka:</label><br>
+        <input type="text" name="nick" required><br>
+
+        <label for="swim">Umíte plavat?</label><br>
+        <form name="je_plavec">
+            <select>
+            <option value = "Ano"> Ano  
+            </option>
+            <option value = "Ne"> Ne
+            </option>
+            </select>
+        </form>
+
+        <label for="kamos">Přejete si s někým být na lodi?</label><br>
+        <input type="text" name="kanoe_kamarad"><br>
+
+        <input type="submit" value="Submit">
+        <a href="index.html"><button type="submit" name="register" >Cancel</button></a>
+    </form>
+</body>
+
+</html>
